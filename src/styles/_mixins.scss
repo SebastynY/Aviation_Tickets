@@ -1,0 +1,21 @@
+@mixin text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  align-items: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #A0B0B9;
+}
+
+@mixin data {
+  display: flex;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  
+  color: #4A4A4A;
+}
